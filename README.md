@@ -5,7 +5,7 @@ Kibana 3.1.3
 ## Usage
 
 - `docker build -t kibana .`
-- `docker run kibana -p8000:80 -e ES_HOST=es.example.com`
+- `docker run -p 8000:80 -e ES_HOST=es.example.com kibana`
 
 ## Exposed ports
 
